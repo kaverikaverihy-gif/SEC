@@ -8,3 +8,20 @@ class Square{
         System.out.println("Enter the square is " + square);
     }
 }
+
+
+import java.util.*;
+class Greater{
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter a number:");
+        int a=sc.nextInt();
+        if(a>0){
+            System.out.println("The is positive:");
+        }
+        else{
+            System.out.println("The number is negative:");
+        }
+    }
+}
+
